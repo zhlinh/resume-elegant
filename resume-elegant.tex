@@ -1,0 +1,88 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{黄振林}
+
+% {E-mail}{mobilephone}{homepage}
+% be careful of _ in emaill address
+\contactInfo{zhlinhng@gmail.com}{(+1) 650-667-5006}{http://www.zhenlin.me}
+% {E-mail}{mobilephone}
+% keep the last empty braces!
+%\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
+ 
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{西安电子科技大学}，陕西}{2014年\ --\ 至今}
+\textit{研究生在读}\ 电子与通信工程，预计 2017 年 6 月毕业
+\datedsubsection{\textbf{西安电子科技大学}，陕西}{2010年\ --\ 2014年}
+\textit{学士}\ 通信工程
+
+\section{\faTrophy\ 获奖情况}
+\begin{onehalfspacing}
+\datedline{校学业奖学金一等奖，\textbf{专业均分:\ 90.29/100，排名:\ 3/265}}{2015年11月}
+\datedline{全国计算机等级考试四级网络工程师}{2012年12月}
+\datedline{大学生数模竞赛校一等奖}{2012年05月}
+\end{onehalfspacing}
+
+\section{\faCogs\ 相关技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{编程语言:}\ \textbf{Java, Android,} (HTML, CSS, JavaScript, MySQL, Python) 
+  \item \textbf{系统平台:}\ Linux, OpenWrt嵌入式系统, Windows
+  \item \textbf{开发工具:}\ Vim, AndroidStudio
+  \item \textbf{英语水平:}\ CET-6 (449)
+\end{itemize}
+
+\section{\faUsers\ 项目经历}
+\datedsubsection{\textbf{PTP-1588虚拟机对时系统}}{2015年9月\ --\ 至今}
+\role{小组组长}{中船七〇九所项目}
+\setlength{\parindent}{2em}提高虚拟机时间同步精度
+\begin{onehalfspacing}
+\begin{itemize}[leftmargin=5em]
+  \item 基于IEEE 1588协议，针对虚拟集群的特性与需求，提出相应的时间同步方案，并使该方案满足同步精度要求。
+  \item 基于时间服务器和PTP板卡提出并实现同步测量方案。
+  \item 在PTPd软件同步的基础上针对虚拟机对同步效果进行优化。
+  \item 实现支持单物理机上同时运行多虚拟机的硬件同步方案。
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{基于Fit AP架构的P2P即时通信定位系统}}{2015年4月\ --\ 2015年11月}
+\role{小组成员}{个人项目}
+\setlength{\parindent}{2em}实现移动端即时通信定位系统
+\begin{onehalfspacing}
+\begin{itemize}[leftmargin=5em]
+  \item 基于Android平台，设计一款P2P即时通信系统，并集成室内定位模块。
+  \item 定位模块采用了两种定位方式，包括基于定位锚点的粗粒度定位和基于RSS信息的较细粒度定位。
+  \item 通信模块基于Android平台实现了P2P即时通信功能，为用户提供文字、语音、图片三种基本通信形式。
+\end{itemize}
+\end{onehalfspacing}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faEnvelopeO\ 其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{LinkedIn:}\ https://www.linkedin.com/in/zhlinh
+  \item \textbf{GitHub:}\ https://github.com/zhlinh
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+
+\end{document}
