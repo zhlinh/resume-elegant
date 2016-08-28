@@ -1,5 +1,7 @@
 # resume-elegant
 
+[![Build Status](https://travis-ci.org/zhlinh/resume-elegant.svg?branch=master)](https://travis-ci.org/zhlinh/resume-elegant)
+
 XeLaTeX Template for Resume in An Elegant Way. 
 
 ---
@@ -28,7 +30,7 @@ your own computer. You can switch to `zh_CN-Adobefonts_internal.sty` instead of
  `zh_CN-Adobefonts_external.sty` in `resume-elegant.tex`, which means you will
  use the system fonts.
 
-- `fontawesome.sty`: It's some icons codes, which you can see the icons on 
+- `fontawesome.sty`: It's some icons codes, which you can see on 
  [Font Awesome Icons](http://fortawesome.github.io/Font-Awesome/icons/).
  Note that alias is not supported. You just need to insert like `\faEnvelopeO`
  (more icon codes you can search in `fontawesome.sty`) in the text field,
