@@ -10,7 +10,7 @@ XeLaTeX Template for Resume in An Elegant Way.
 
 Windows & Linux:
 ```
-$ xelatex resume-elegant.tex
+$ xelatex resume-elegant.tex -interaction=nonstopmode
 ```
 
 Another simple way in Linux:
@@ -26,8 +26,8 @@ $ make
  `resume-elegant.tex`.
 
 - `fonts(directory)`: The `fonts` directory is not always needed if you run it on
-your own computer. You can switch to `zh_CN-Adobefonts_internal.sty` instead of 
- `zh_CN-Adobefonts_external.sty` in `resume-elegant.tex`, which means you will
+your own computer. You can switch to `zh_CN-Adobefonts-Internal.sty` instead of 
+ `zh_CN-Adobefonts-External.sty` in `resume-elegant.tex`, which means you will
  use the system fonts.
 
 - `fontawesome.sty`: It's some icons codes, which you can see on 
