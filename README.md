@@ -8,7 +8,7 @@ XeLaTeX Template for Resume in An Elegant Way.
 
 ## USAGE
 
-Windows & Linux:
+> Windows & Linux
 
 Chinese version:
 ```
@@ -20,9 +20,10 @@ English version:
 $ xelatex resume-elegant-eng.tex -interaction=nonstopmode
 ```
 
-Another simple way in Linux:
+> Another Simple Way on Linux
+
 ```
-$ make cn (or make eng)
+$ make cn (or $ make eng)
 ```
 
 ## DEVELOPMENT
