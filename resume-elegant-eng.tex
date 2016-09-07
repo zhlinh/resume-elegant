@@ -1,0 +1,85 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{setspace}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Zhenlin Huang}
+
+% {E-mail}{mobilephone}{homepage}
+% be careful of _ in emaill address
+\contactInfo{zhlinhng@gmail.com}{(+1) 650-667-5006}{http://www.zhenlin.me}
+% {E-mail}{mobilephone}
+% keep the last empty braces!
+%\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
+ 
+\section{\faGraduationCap\ EDUCATION}
+\datedsubsection{\textbf{Xidian University}, Xi'an, China}{2014 -- Present}
+\textit{Master student} Communication Engineering, expected June 2017
+\datedsubsection{\textbf{Xidian University}, Xi'an, China}{2010 -- 2014}
+\textit{B.S.} Communication Engineering
+
+\section{\faTrophy\ HONORS \& AWARDS}
+\begin{onehalfspacing}
+\datedline{\textit{School \nth{1} Prize}, Academic Scholarship }{Nov. 2013}
+\datedline{National Computer Rank Examination Certificate}{Dec. 2012}
+\datedline{\textit{School \nth{1} Prize}, Model Contest for College Students}{Dec. 2012}
+\end{onehalfspacing}
+
+
+\section{\faCogs\ SKILLS}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{Programming Languages:}\ \textbf{Java, Android,} (HTML, CSS, JavaScript, MySQL, Python) 
+  \item \textbf{Platform:}\ Linux, OpenWrt Embedded Systems, Windows
+  \item \textbf{Development Tools:}\ Vim, AndroidStudio
+  \item \textbf{English Level:}\ CET-6 (449)
+\end{itemize}
+
+\section{\faUsers\ EXPERIENCE}
+\datedsubsection{\textbf{PTP-1588 Virtual Machine Synchronization System}}{Sep. 2015 -- Present}
+\role{Team leader}{China state shipbuilding corporation 709th institute project}
+\setlength{\parindent}{2em}Improve the time synchronization precision of virtual machine
+\begin{onehalfspacing}
+\begin{itemize}[leftmargin=5em]
+  \item Based on IEEE 1588 protocol, and demand for the characteristics of virtual clusters, propose appropriate time synchronization programs, and that the program meets the synchronization accuracy.
+  \item Propose and implement synchronous measurement scheme based on and PTP server and client card.
+  \item Optimize synchronization effect of virtual machine on the basis of the of PTPd software.
+  \item Implementation hardware-based synchronization scheme supports a single physical machine running multiple virtual machines simultaneously.
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{A Peer-to-Peer Instant Messaging and Positioning System}}{Apr. 2015 -- Nov. 2015}
+\role{Team member}{Individual Project}
+\setlength{\parindent}{2em}Implement instant communication positioning system for mobile terminal
+\begin{onehalfspacing}
+\begin{itemize}[leftmargin=5em]
+  \item Design a P2P instant messaging system on the Android platform with the integration of indoor positioning module.
+  \item Use two positioning methods, including coarse-grained anchor-based positioning and fine-grained RSSI-based positioning.
+  \item Achieve the P2P instant messaging capabilities on the Android platform, to provide users with three basic forms(text, voice and image) of communication. 
+\end{itemize}
+\end{onehalfspacing}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faEnvelopeO\ MISCELLANEOUS}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{LinkedIn:}\ https://www.linkedin.com/in/zhlinh
+  \item \textbf{GitHub:}\ https://github.com/zhlinh
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}

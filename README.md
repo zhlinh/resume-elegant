@@ -9,25 +9,32 @@ XeLaTeX Template for Resume in An Elegant Way.
 ## USAGE
 
 Windows & Linux:
+
+Chinese version:
 ```
-$ xelatex resume-elegant.tex -interaction=nonstopmode
+$ xelatex resume-elegant-cn.tex -interaction=nonstopmode
+```
+
+English version:
+```
+$ xelatex resume-elegant-eng.tex -interaction=nonstopmode
 ```
 
 Another simple way in Linux:
 ```
-$ make
+$ make cn (or make eng)
 ```
 
 ## DEVELOPMENT
 
-- `resume-elegant.tex`: The main file includes the contents and typesetting.
+- `resume-elegant-*.tex`: The main file includes the contents and typesetting.
 
 - `resume.cls`: Define some templates which you can easily use in 
- `resume-elegant.tex`.
+ `resume-elegant-*.tex`.
 
 - `fonts(directory)`: The `fonts` directory is not always needed if you run it on
 your own computer. You can switch to `zh_CN-Adobefonts-Internal.sty` instead of 
- `zh_CN-Adobefonts-External.sty` in `resume-elegant.tex`, which means you will
+ `zh_CN-Adobefonts-External.sty` in `resume-elegant-*.tex`, which means you will
  use the system fonts.
 
 - `fontawesome.sty`: It's some icons codes, which you can see on 

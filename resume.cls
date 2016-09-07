@@ -16,12 +16,12 @@
 \RequirePackage{fontspec}
 % Main document font
 \setmainfont[
-  Path = fonts/Main/ ,
-  Extension = .otf ,
-  UprightFont = *-regular ,
-  BoldFont = *-bold ,
-  ItalicFont = *-italic ,
-  BoldItalicFont = *-bolditalic ,
+  Path = fonts/Main/,
+  Extension = .otf,
+  UprightFont = *-regular,
+  BoldFont = *-bold,
+  ItalicFont = *-italic,
+  BoldItalicFont = *-bolditalic,
   SmallCapsFont = Fontin-SmallCaps
 ]{texgyretermes}
 
@@ -43,8 +43,7 @@
 \RequirePackage[super]{nth}
 
 \titleformat{\section}         % Customise the \section command 
-  {\Large\scshape\raggedright} % Make the \section headers large (\Large),
-                               % small capitals (\scshape) and left aligned (\raggedright)
+  {\Large\bf\raggedright}      % Make the \section headers large (\Large) and small capital,
   {}{0em}                      % Can be used to give a prefix to all sections, like 'Section ...'
   {}                           % Can be used to insert code before the heading
   [\titlerule]                 % Inserts a horizontal line after the heading
@@ -67,7 +66,7 @@
 }
 
 \newcommand{\name}[1]{
-  \centerline{\Huge\scshape{#1}}
+  \centerline{\Huge\bf{#1}}
   \vspace{1.5ex}
 }
 
