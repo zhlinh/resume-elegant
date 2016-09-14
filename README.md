@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/zhlinh/resume-elegant.svg?branch=master)](https://travis-ci.org/zhlinh/resume-elegant)
 
-XeLaTeX Template for Resume in An Elegant Way. 
+XeLaTeX Template for Resume in An Elegant Way.
 
 ---
 
@@ -30,15 +30,15 @@ $ make cn (or $ make eng)
 
 - `resume-elegant-*.tex`: The main file includes the contents and typesetting.
 
-- `resume.cls`: Define some templates which you can easily use in 
+- `resume.cls`: Define some templates which you can easily use in
  `resume-elegant-*.tex`.
 
 - `fonts(directory)`: The `fonts` directory is not always needed if you run it on
-your own computer. You can switch to `zh_CN-Adobefonts-Internal.sty` instead of 
+your own computer. You can switch to `zh_CN-Adobefonts-Internal.sty` instead of
  `zh_CN-Adobefonts-External.sty` in `resume-elegant-*.tex`, which means you will
  use the system fonts.
 
-- `fontawesome.sty`: It's some icons codes, which you can see on 
+- `fontawesome.sty`: It's some icons codes, which you can see on
  [Font Awesome Icons](http://fortawesome.github.io/Font-Awesome/icons/).
  Note that alias is not supported. You just need to insert like `\faEnvelopeO`
  (more icon codes you can search in `fontawesome.sty`) in the text field,
